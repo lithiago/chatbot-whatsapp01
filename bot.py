@@ -1,10 +1,7 @@
-import ollama
 from flask import Flask, request, abort
-from langchain.chat_models import ChatOllama
 
 
 
-PROMPT_TEMPLATE = ""
 app =  Flask(__name__)
 
 
